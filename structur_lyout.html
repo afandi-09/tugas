@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>structur layout</title>
+    <style>
+        body
+        {
+            margin: 20px;
+
+        }
+        .container
+        {
+            border: 5px solid black ;
+            display: flex;
+            /* arti dari flexsible */
+            justify-content: flex-end; 
+        }
+        .container>div
+        {
+            padding: 20px 10px 20px 10px; 
+            /* padding adalah untuk mengatur jarak spasi */
+            text-align: center;
+
+        }
+        .datadiri,th,td
+        {
+            border: 5px ridge black;
+        }
+    </style>
+</head>
+<body>
+   <nav class="container">
+    <div class="home">home</div>
+    <div class="about">about</div>
+    <div class="contact">contact</div>
+    </nav>
+    <header>
+        <h2>frontend</h2>
+        <p>membuat dan memperbaiki website agak tampilan lebih baik dan lebih interaktip </p>
+    </header>
+    <main>
+        <div class="ini form">
+            <h2>ini form</h2>
+        </div>
+        <!-- ini buat form -->
+        <div class="initable">
+            <h2>ini table</h2>
+        </div>
+        <table class="datadiri">
+            <tr>
+                <th>nama</th>
+                <th>alamat</th>
+                <th>tanggal lahir</th>
+                <th>nama ortu</th>
+                <th>pendidikan terakhir</th>
+            </tr>
+            <tr>
+                <td>idris</td>
+                <td>sukabumi</td>
+                <td>2001</td>
+                <td>hayin</td>
+                <td>smk</td>
+            </tr>
+        </table>
+    </main>
+    <footer>idris2023</footer>
+</body>
+</html>

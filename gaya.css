@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    display: flexbox;
+}
+body{
+    margin: 50px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: rgb(54, 51, 51);
+    display: flex;
+    justify-content: space-between;
+    backdrop-filter: blur(10px);
+}
+.gambar-revoU{
+    cursor: default;
+}
+
+.navigasi{
+    display: flex;
+}
+.navigasi a{
+    font-weight: 500;
+    margin: 15px 25px;
+    transition: all.5s ease;
+    text-decoration: none;
+    color: #fff;
+}
+ul li{
+list-style: none;
+}
+
+
+/* nav ul{
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    text-align: center;
+    align-items: center;
+}
+nav li{
+    margin: 0 15px;
+    
+}
+nav a{
+    text-decoration: none;
+    color: black; */ 
+/* }
+nav a:hover{
+    text-decoration: underline;
+} */
